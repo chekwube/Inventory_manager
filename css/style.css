@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2018, 3:40:26 PM
+    Author     : INFOMECTICS
+*/
+
+.home-bg{
+    /*background-color: yellow;*/
+    background-image: url("../img/blind.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.home__item{
+    padding-bottom: auto;
+    /*margin: auto auto;*/
+    font-weight: bold;
+}
+
+.btn:first-child {
+    /*color: #fff;*/
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+   text-decoration: none;
+}
+.login-form-group input[type='text'], input[type='password']{
+    height: 40%;
+    font-size: 18pt;
+}
+
+.login-form-group{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.login-form-group label{
+    font-size: 12pt;
+}
+
+input[type='text'], input[type='number'], input[type="date"]{
+    height: 40px;
+}
+
+.remove-rolls, .remove-cartons, .create-rolls, .create-cartons, .add-cost, 
+.invoice-update, .add-goods-warehouse, .offcut-box, .addcut-box, .updatecut-form{
+    width: 40%;
+    margin: 0 auto;
+}
+.remove-cartons{
+    margin-top: -2%;
+}
+.create-cartons{
+    margin-top: -5%;
+}
+
+div.relative{
+    position: relative;
+/*    left: 20%;*/
+}
+div span{
+    margin-right: 40px;
+}
+
+.code-per-cost{
+    width: 70%;
+    margin: auto;
+}
+
+#warehouse-manager{
+    width: 45%;
+    color: red;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
